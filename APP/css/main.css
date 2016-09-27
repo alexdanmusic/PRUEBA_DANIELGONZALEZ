@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#F3F3F3!important;
+}
+
+*{
+	padding:0;
+	margin:0;
+}
+img{
+	border:0px;
+}
+#cabecera{
+	background-color:#039;
+	color:#FFF;
+	padding:10px 0px 10px;
+	width:100%;
+}
+#cabecera h1{
+	margin-left:20px;
+}
+#info{
+	margin:auto;
+	margin-top:5px;
+	width:90%;
+}
+#info p, #info a{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color:#004080;
+}
+#botones{
+	margin:auto;
+	margin-top:20px;
+	width:90%;
+}
+#botones .boton_actual{
+	background-color:#FFF;
+	width:200px;
+	margin-left:5px;
+	padding:5px 8px 5px 8px;
+	border:1px solid #004080;
+	border-bottom:0;
+
+}
+#botones .boton_enlace{
+	background-color:#004080;
+	width:200px;
+	margin-left:5px;
+	padding:4px 8px 4px 8px;
+	border:1px solid #004080;
+	border-bottom:0;
+}
+#botones .boton_enlace a{
+	color:#fff;
+	text-decoration:none;
+}
+#infodoc{
+	margin:auto;
+	width:90%;
+	background-color:#FFF;
+	border:1px solid #004080;
+	padding:10px;
+	margin-top:10px;
+}
+
+#listado{
+	margin:auto;
+	width:90%;
+	background-color:#FFF;
+	border:1px solid #004080;
+	padding:10px;
+	margin-top:3px;
+}
+#footer{
+	margin-top:50px;
+}
+#footer p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#004080;
+	text-align:center;
+}
+#paginacion{
+	margin:10px 0px 10px;
+	font-size:13px;
+}
+#paginacion img:hover{
+	border:1px solid #666;
+}
+#paginacion img{
+  	vertical-align: middle;
+	border:1px solid #999;
+	padding:2px 2px 0px 2px;
+	color:#004080;
+	text-decoration:none;
+	display:inline;
+}
+
+/*listado*/
+#secciones li div{
+	display:inline-block;
+	min-height:20px;
+	height:20px;
+
+}
+#secciones li a{
+	color:#4B6186;
+	cursor:pointer;
+	text-decoration:none;
+}
+#secciones li a:hover{
+	color:#1F2635;
+}
+#secciones li div.alinear{
+	float:right;
+	padding:0px 5px 0px 5px;
+}
+/*cabecera secc*/
+.cabecerasec{
+	min-height:30px;
+	background-color:#004080;
+	color:#fff;
+	margin:auto;
+	width:100%;
+	text-align:center;
+	font-size:14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.titulo1{
+	display:block;
+	text-align:center;
+	width:65%;
+	float:left;
+	padding-top:5px;
+}
+.titulo2{
+	display:block;
+	text-align:center;
+	width:260px;
+	float:right;
+	padding-top:5px;
+}

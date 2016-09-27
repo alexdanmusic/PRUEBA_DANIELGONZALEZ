@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+img{
+	border:0px;
+}
+body{
+	background-color:#D2E9FF;
+}
+#cabecera{
+	width:100%;
+	background-color:#004080;
+}
+#cabecera h1, h3{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	padding:10px 0px 10px;
+	margin-left:20px;
+}
+#estructura{
+	margin:auto;
+	width:95%;
+	background:#fff;
+}
+#panelbusqueda{
+	font-family:Arial, Helvetica, sans-serif;
+	width: 300px;
+   	background-color: #66B3FF;
+   	float:left; 
+	margin:5px 0px 0px 5px;
+	-moz-border-radius:8px;
+}
+#panelbusqueda #tipo{
+	text-align:center;
+	margin-top:15px;
+}
+#panelbusqueda #tipo a{
+	margin:0px 5px;
+	border:0px;
+}
+#panelbusqueda form{
+	margin:5px 10px 5px 10px;
+}
+#panelbusqueda form label{
+	font-size:12px;
+}
+#panelbusqueda form .caja{
+	border:1px solid #666;
+	font-size:13px;
+	padding:5px;
+	width:200px;
+}
+#panelbusqueda form .boton{
+	background-image:url(../img/secciones.png);
+	background-repeat:no-repeat;
+	width:20px;
+	height:20px;
+	background-color:#00458A;
+}
+
+/*arbol*/
+#panelbusqueda #arbol, #list_subtemas{
+	margin:5px 10px 5px 10px;
+}/*
+#panelbusqueda #arbol p{
+	padding:3px 0px 3px;
+	font-size:12px;
+}
+#panelbusqueda #arbol p a{
+	color:#004080;
+	text-decoration:none;
+}
+#panelbusqueda #arbol p a:hover{
+	text-decoration:underline;
+}*/
+#panelbusqueda h2{
+	margin-left:10px;
+	font-size:18px;
+	color:#039;
+}
+
+#contenedor{
+	margin-left: 310px;
+   	background-color: #ffffff;
+   	padding: 4 4 4 4px; 
+	overflow:scroll;
+	border:2px dashed #CCC;
+}
+
+#contenido{
+	margin:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:20px;
+}
+#contenido p{
+	padding:5px 0px 5px;
+}
+#contenido ul, #contenido ol{
+	margin-left:35px;
+	
+}
+#arbol, #list_subtemas{
+	background-color:#fff;
+}
+#arbol ul{
+	padding:10px;
+}
+#arbol ul li, #list_subtemas ul li{
+	list-style:none;
+	padding-bottom:5px;
+}
+#arbol a, #list_subtemas a{
+	color:#036;
+	text-decoration:none;
+}
+#arbol a:hover, #list_subtemas a:hover{
+	text-decoration:underline;
+}
+
+.highlight
+{
+background: #CEDAEB;
+}
+
+.highlight_important
+{
+background: #F8DCB8;
+}

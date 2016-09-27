@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	color:#333;
+	background:#fff;
+	font:12px arial,verdana,sans-serif;
+}
+.code{
+	color:red;
+	font-family:"Courier New", Courier, monospace;
+}

@@ -1,0 +1,63 @@
+form{
+	padding:10px;
+	margin:10px;
+	margin-top:20px;
+	color:#333;
+	background:#fff;
+	font:12px arial,verdana,sans-serif;
+	/*width:450px;*/
+	margin-right:auto;
+	margin-left:auto;
+	border:1px solid #CCC;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	behavior:url(border-radius.htc);
+}
+form h3{
+	color:#004080;
+}
+
+label{
+	float:left;
+	width:100px;
+	padding:0 1em;
+	text-align:right;
+}
+
+form div{
+	margin-bottom:.5em;
+	padding:4px 0px 4px;
+	display:block;
+}
+
+form div input, div textarea{
+	width:250px;
+	border:1px solid #ccc;
+	padding:2px;
+	color:#666;
+	font:12px arial,verdana,sans-serif;
+}
+
+form div select{
+	padding:1px;
+}
+
+#fm-submit {
+	clear:both;
+	padding-top:1em;
+	text-align:center;
+}
+#fm-submit input {
+	border:0;
+	background:none repeat scroll 0 0 #004080;
+	color:#fff;
+	padding:5px 1em;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	behavior:url(border-radius.htc);
+}
+
